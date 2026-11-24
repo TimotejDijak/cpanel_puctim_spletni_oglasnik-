@@ -1,0 +1,4 @@
+ deployment:
+    tasks:
+     - export DEPLOYPATH=/home/puctim/public_html/solski_oglasnik
+     - /bin/cp -R * $DEPLOYPATH
